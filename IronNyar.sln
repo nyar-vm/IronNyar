@@ -3,21 +3,16 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.28803.452
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IronNyar.Native", "IronNyar.Native\IronNyar.Native.csproj", "{6D478AD5-8749-40F4-B834-01EBA6E545F0}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IronNyar.Runner", "IronNyar.Runner\IronNyar.Runner.csproj", "{6FDD7972-F4CE-4B6E-BF70-9A04A61540E0}"
-	ProjectSection(ProjectDependencies) = postProject
-		{0568B9AB-19D6-468A-B8E4-02E9993507E7} = {0568B9AB-19D6-468A-B8E4-02E9993507E7}
-	EndProjectSection
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IronNyar.Test", "IronNyar.Test\IronNyar.Test.csproj", "{B14A32BD-BC22-49E6-AA57-106832E3AFB7}"
 	ProjectSection(ProjectDependencies) = postProject
 		{0568B9AB-19D6-468A-B8E4-02E9993507E7} = {0568B9AB-19D6-468A-B8E4-02E9993507E7}
 	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IronNyar", "IronNyar\IronNyar.csproj", "{0568B9AB-19D6-468A-B8E4-02E9993507E7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IronNyar.Parser", "IronNyar.Parser\IronNyar.Parser.csproj", "{933584E5-1D5B-4A02-8627-6ACC3195320F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IronNyar.Parser", "IronNyar.Parser\IronNyar.Parser.csproj", "{933584E5-1D5B-4A02-8627-6ACC3195320F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IronNyar.Test", "IronNyar.Test\IronNyar.Test.csproj", "{0CABA2DF-ED2C-4B20-BA64-E8CC2F4F8957}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,18 +20,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{6D478AD5-8749-40F4-B834-01EBA6E545F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6D478AD5-8749-40F4-B834-01EBA6E545F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6D478AD5-8749-40F4-B834-01EBA6E545F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6D478AD5-8749-40F4-B834-01EBA6E545F0}.Release|Any CPU.Build.0 = Release|Any CPU
 		{6FDD7972-F4CE-4B6E-BF70-9A04A61540E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{6FDD7972-F4CE-4B6E-BF70-9A04A61540E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6FDD7972-F4CE-4B6E-BF70-9A04A61540E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6FDD7972-F4CE-4B6E-BF70-9A04A61540E0}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B14A32BD-BC22-49E6-AA57-106832E3AFB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B14A32BD-BC22-49E6-AA57-106832E3AFB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B14A32BD-BC22-49E6-AA57-106832E3AFB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B14A32BD-BC22-49E6-AA57-106832E3AFB7}.Release|Any CPU.Build.0 = Release|Any CPU
 		{0568B9AB-19D6-468A-B8E4-02E9993507E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{0568B9AB-19D6-468A-B8E4-02E9993507E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0568B9AB-19D6-468A-B8E4-02E9993507E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -45,6 +32,10 @@ Global
 		{933584E5-1D5B-4A02-8627-6ACC3195320F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{933584E5-1D5B-4A02-8627-6ACC3195320F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{933584E5-1D5B-4A02-8627-6ACC3195320F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CABA2DF-ED2C-4B20-BA64-E8CC2F4F8957}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CABA2DF-ED2C-4B20-BA64-E8CC2F4F8957}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CABA2DF-ED2C-4B20-BA64-E8CC2F4F8957}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CABA2DF-ED2C-4B20-BA64-E8CC2F4F8957}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
