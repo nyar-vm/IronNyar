@@ -1,0 +1,37 @@
+# IDE
+.idea/
+.vs/
+.vscode/
+
+
+# NuGet
+packages/*
+
+# Temporary
+*_name_S*
+*.suo
+*.csproj.user
+*.wixproj.user
+*.pidb
+
+# Testings
+TestResult.xml
+Solutions/TestResults/
+Runtime/Samples/Hosting/Scenarios/bin/
+Tests/**/runsettings.xml
+
+# Debugs
+debug.log
+*.bak
+*.binlog
+*.ProjectImports.zip
+*result.xml
+
+# Build
+obj/
+bin/
+/bin/
+/Package/Release/
+/Package/Stage/
+/Util/References
+TestResults
