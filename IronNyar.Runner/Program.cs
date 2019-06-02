@@ -2,6 +2,7 @@
 using System.Dynamic;
 using System.Linq.Expressions;
 using IronNyar;
+using IronNyar.Object.Number.Integer;
 using IronNyar.Operator;
 
 
@@ -25,14 +26,10 @@ namespace IronNyar.Runtime
 
             public static void somename2()
             {
-                var lhs1 = new Object.Number.Integer.Integer32("5");
-                var rhs1 = new Object.Number.Integer.Integer32("20");
-                var ans1 = Middle.Plus(lhs1, rhs1);
-                Console.WriteLine("{0}", ans1.__type__);
-                var lhs2 = new Object.Number.Integer.Integer32("5");
-                var rhs2 = new Object.Number.Integer.Integer64("20");
-                var ans2 = Middle.Plus(lhs2, rhs2);
-                Console.WriteLine("{0}", ans2.__type__);
+                var lhs = new Self("20");
+                var rhs = new Self("5");
+                Console.WriteLine("{0}", (lhs - rhs)._value);
+                Console.WriteLine("{0}", (rhs - lhs)._value);
             }
 
             public static void somename3()
